@@ -1,0 +1,19 @@
+{
+  "name": "yarn-berry-webpack-jest-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ivan Rudoy <rudoy@farpost.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1",
+    "pnp-webpack-plugin": "^1.6.4",
+    "webpack": "^4.43.0"
+  },
+  "scripts": {
+    "start": "jest"
+  }
+}
