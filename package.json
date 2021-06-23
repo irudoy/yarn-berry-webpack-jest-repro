@@ -6,12 +6,11 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "@babel/core": "^7.9.6",
-    "@babel/preset-env": "^7.9.6",
-    "babel-jest": "^26.0.1",
-    "jest": "^26.0.1",
-    "pnp-webpack-plugin": "^1.6.4",
-    "webpack": "^4.43.0"
+    "@babel/core": "7.14.6",
+    "@babel/preset-env": "7.14.7",
+    "babel-jest": "27.0.5",
+    "jest": "27.0.5",
+    "webpack": "5.40.0"
   },
   "scripts": {
     "start": "jest"
