@@ -1,9 +1,9 @@
 const webpack = require('webpack');
 
 test('simple', () => {
-    expect(
+    expect(() => {
         webpack({
             entry: './main.js'
         })
-    ).not.toThrow();
+    }).not.toThrow();
 });
